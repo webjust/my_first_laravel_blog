@@ -18,4 +18,5 @@ Route::get('/', 'HomeController@index');
 // 后台
 Route::group(['middleware' => 'auth', 'namespace' => 'Admin', 'prefix' => 'admin'], function() {
     Route::get('/', 'HomeController@index');
+    Route::get('article', 'ArticleController@index');
 });

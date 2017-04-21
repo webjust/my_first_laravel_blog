@@ -14,9 +14,6 @@
                 <div class="panel-heading">文章列表</div>
 
                 <div class="panel-body">
-<<<<<<< HEAD
-                    {{ dd($articles) }}
-=======
                     <table class="table">
                         <tr>
                             <th>文章编号</th>
@@ -33,7 +30,6 @@
                         </tr>
                         @endforeach
                     </table>
->>>>>>> mvc
                 </div>
             </div>
         </div>
